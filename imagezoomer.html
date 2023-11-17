@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>Image Zoomer</title> 
+
+        <style type="text/css">
+            ul li {list-style-type: none; margin-bottom: 10px;}
+            ul {float: left;}
+            ul li img{width: 150px; height: 150px;}
+
+            .big_img {width: 300px; height: 300px; float: left; margin-left: 10px;}
+        </style>
+    </head>
+    <body>
+        <div class="main_box">
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <div class="co-md-5 text-center text-md-start">
+                        <h2 class="text-primary text-center">
+                        Image Zoomer
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-lg">
+                <ul>
+                    <li>
+                        <img src="imgs/cristiano-ronaldo-1_169.jpeg" class="small_img">
+                    </li>
+                    <li>
+                        <img src="imgs/library_upload_21_2023_09_996x664_lionel-messi_eee4f5c.jpg" class="small_img">
+                    </li>
+                    <li>
+                        <img src="imgs/neymar-cedera-vs-uruguay-3_169.jpeg" class="small_img">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container-lg">
+                <img src="imgs/cristiano-ronaldo-1_169.jpeg" class="big_img">
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/zoomsl.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
